@@ -1,0 +1,16 @@
+# 原始和清洗后的数据：文件大，可由 01_clean.py 重新生成，不进仓库
+data/raw/*
+data/cleaned/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
