@@ -119,8 +119,10 @@
 
 ## 8. GitHub 工作流（老师要求每天同步进度）
 
-- 仓库名：`ecommerce-rfm-churn`，Public。用户已在 GitHub Desktop 里建好并 clone 到电脑（详细步骤见 `上传步骤.md`）。
-- **每天做完就同步**：写一句中文说明今天做了什么（比如"完成数据清洗"），Commit，Push。
+- 仓库：https://github.com/kaikkkkkktfufif/ecommerce-rfm-churn （Public），本地在 `C:\Users\Lenovo\ecommerce-rfm-churn`。用 gh 命令行建的，已登录；没装 GitHub Desktop。
+- **每天做完就同步**：Commit + Push。
+- **提交信息格式**：`Day N：当天任务（负责人：XXX）`，负责人按第 6 节的表：Day 2、Day 3 = 罗祺骞；Day 4、Day 5 = 游泓柯；Day 1、Day 6、Day 7、缓冲日 = 两人。例："Day 2：RFM + K-Means 分群（负责人：罗祺骞）"。
+- **每天同时更新 README 进度表**的"状态"列（⬜ 未开始 → ✅ 完成），和代码一起提交。
 - 每天开始干活前，先 Pull，把罗祺骞昨天传的更新拉下来。
 - 罗祺骞是仓库的 Collaborator，改完一样 Commit + Push。
 - 数据文件不进仓库（`.gitignore` 已设置），代码、图、报告都要进仓库。
