@@ -27,7 +27,8 @@ data/cleaned/      清洗后的 CSV（不进仓库）
 src/               代码，按编号顺序运行
 outputs/figures/   所有图
 report/            报告
-docs/              一周冲刺计划
+docs/              一周冲刺计划、数据说明、参考项目
+baseline/          基线项目原版 notebook（别人写的，Apache-2.0，未修改）
 ```
 
 ## 运行方法
