@@ -124,7 +124,8 @@
 - **提交信息格式**：`Day N：当天任务（负责人：XXX）`，负责人按第 6 节的表：Day 2、Day 3 = 罗祺骞；Day 4、Day 5 = 游泓柯；Day 1、Day 6、Day 7、缓冲日 = 两人。例："Day 2：RFM + K-Means 分群（负责人：罗祺骞）"。
 - **每天同时更新 README 进度表**的"状态"列（⬜ 未开始 → ✅ 完成），和代码一起提交。
 - 每天开始干活前，先 Pull，把罗祺骞昨天传的更新拉下来。
-- 罗祺骞是仓库的 Collaborator，改完一样 Commit + Push。
+- 罗祺骞的 GitHub 账号是 `lqq1123`，已邀请为仓库 Collaborator（write 权限），他自己改完一样 Commit + Push。
+- **罗祺骞负责的那几天（Day 2、Day 3）如果是在游泓柯电脑上提交**，提交信息末尾加一行 `Co-authored-by: lqq1123 <121959709+lqq1123@users.noreply.github.com>`，让 GitHub 显示他是共同作者。两人负责的日子（Day 1、6、7、缓冲日）也加这一行。
 - 数据文件不进仓库（`.gitignore` 已设置），代码、图、报告都要进仓库。
 
 ## 9. 提交前检查清单

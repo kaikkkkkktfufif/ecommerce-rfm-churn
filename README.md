@@ -15,6 +15,7 @@
 ## 方法
 
 - 分群：RFM + K-Means（肘部法 + 轮廓系数定 K）
+- 基线对比：复现 GitHub 项目 alifialistu/RFMAnalysis-KMeans（Apache-2.0）的方法并和我们的方法对比，见 `docs/参考项目.md`
 - 流失预测：随机森林 / XGBoost（ROC-AUC、F1）
 - 时间规律：季节分解 + Holt-Winters + ARIMA，黑五/圣诞季效应
 
@@ -37,6 +38,7 @@ conda activate ds
 pip install -r requirements.txt
 python src/01_clean.py
 python src/02_rfm_kmeans.py
+python src/02b_baseline_compare.py   # 基线对比，要先跑 02
 python src/03_olist.py
 python src/04_churn.py
 python src/05_timeseries.py
